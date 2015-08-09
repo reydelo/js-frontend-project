@@ -1,0 +1,32 @@
+body {
+  background: url('img/body-background.jpg') top right;
+  background-attachment:fixed;
+  /*background-size: 100%;*/
+}
+.header{
+  background: url('img/background-feather.jpg');
+  text-align: center;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.menu-div {
+  bottom: 0;
+}
+.menu {
+  line-height: 1.4;
+  bottom: 0;
+  left: 0;
+}
+
+.menu li {
+  display: inline;
+  text-align: center;
+}
+
+.clothing {
+  margin-top: 120px;
+}

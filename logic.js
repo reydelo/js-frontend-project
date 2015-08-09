@@ -10,8 +10,8 @@ var Item = function(name, img, category, color, brand, price, date, size){
 };
 
 Item.prototype.display = function(){
-  $('body').append('<h1>' + this.name + '<h1>')
+  $('.clothing').append('<h1>' + this.name + '<h1>')
   for(i = 0; i < this.img.length; i++) {
-    $('body').append('<img src="' + this.img[i] + '"></img>');
+    $('.clothing').append('<img src="' + this.img[i] + '"></img>');
   }
 }
